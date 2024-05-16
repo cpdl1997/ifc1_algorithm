@@ -1,0 +1,27 @@
+Working Environments used:
+1) De Toni: pear3 [for PEAR folder -> pear4]
+2) CSCF: cscf_env
+3) My Method: (base) or alg4
+
+
+
+
+CMD Commands to create environment:
+
+py -3.7 -m venv .\virtual_environment\carla 
+
+
+
+CMD Commands to activate environment:
+
+.\virtual_environment\cscf\cscf_env\Scripts\activate.bat
+
+
+
+CMD Commands to dactivate environment:
+
+deactivate
+
+
+To delete environment:
+Simply delete folder
