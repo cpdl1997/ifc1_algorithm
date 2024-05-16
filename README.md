@@ -19,6 +19,8 @@ When creating with conda, feel free to use pip therafter to install other packag
 ---
 > [!NOTE]
 
+<blockquote>
+
 It is recommended that you comment out the following packages first in your requirements.txt:
 1. tensorflow:
    - tensorboard==2.15.1
@@ -36,7 +38,7 @@ It is recommended that you comment out the following packages first in your requ
 Thereafter install tensorflow simply by using: `pip install tensorflow`
 
 Install pytorch using the official site for [current version](https://pytorch.org/get-started/locally/) or [older versions](https://pytorch.org/get-started/previous-versions/).
-
+</blockquote>
 ---
 
 ## How to use:
