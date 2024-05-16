@@ -16,6 +16,25 @@ While using conda, you dont even need to have python 3.11 installed from before.
 * *Windows and Linux*: `conda create -n .\virtual_environment\alg4 python=3.11`
 When creating with conda, feel free to use pip therafter to install other packages - this is necessary as causal-learn and dowhy are not available on conda.
 
+[!NOTE]
+It is recommended that you comment out the following packages first in your requirements.txt:
+1. tensorflow:
+   - tensorboard==2.15.1
+   - tensorboard-data-server==0.7.2
+   - tensorflow==2.15.0
+   - tensorflow-estimator==2.15.0
+   - tensorflow-intel==2.15.0
+   - tensorflow-io-gcs-filesystem==0.31.0
+2. pytorch:
+   - torch==2.2.0+cu121
+   - torchaudio==2.2.0+cu121
+   - torchmetrics==1.3.0.post0
+   - torchvision==0.17.0+cu121
+
+Thereafter install tensorflow simply by using: `pip install tensorflow`
+
+Install pytorch using the official site for [current version](https://pytorch.org/get-started/locally/) or [older versions](https://pytorch.org/get-started/previous-versions/).
+
 ## How to use:
 
 To run the baselines for the synthetic dataset, run the following command:
