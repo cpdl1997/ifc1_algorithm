@@ -101,7 +101,7 @@ This folder contains two different data structures with specific functionalities
 
 ## Changes for further versions:
 
-There is a need to further optimize the code, introduce GPU functionalities and multithreading, and cleaning up some of the wasted files.
+There is a need to further optimize the code, introduce GPU functionalities and multithreading, and cleaning up some of the wasted files. *Makefile* doesnt work as of now.
 
 
 [^1]: Yue, Yisong, et al. "The k-armed dueling bandits problem." Journal of Computer and System Sciences 78.5 (2012): 1538-1556.
