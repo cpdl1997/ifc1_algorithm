@@ -17,7 +17,7 @@ While using conda, you dont even need to have python 3.11 installed from before.
 When creating with conda, feel free to use pip therafter to install other packages - this is necessary as causal-learn and dowhy are not available on conda.
 
 ---
-**NOTE**
+### NOTE
 
 It is recommended that you comment out the following packages first in your requirements.txt:
 1. tensorflow:
@@ -36,6 +36,7 @@ It is recommended that you comment out the following packages first in your requ
 Thereafter install tensorflow simply by using: `pip install tensorflow`
 
 Install pytorch using the official site for [current version](https://pytorch.org/get-started/locally/) or [older versions](https://pytorch.org/get-started/previous-versions/).
+
 ---
 
 ## How to use:
