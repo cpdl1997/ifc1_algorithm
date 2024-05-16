@@ -1,4 +1,4 @@
-# IFC1: A novel algorithm to learn user preferences and generate counterfactuals based on it
+# IFC1: A novel algorithm to learn user preferences and generate algorithmic recourse based on it
 
 This is a repository for **IFC1**, a novel algorithm to learn user preferences that is based on the duelling bandit IF1 by Ue et al. [^1].
 
